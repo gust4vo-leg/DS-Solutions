@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Century Gothic, sans-serif;
+    font-weight: 500;
+    background-color: #F7F8F0;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+.dev-img {
+    height: 60vh;
+    min-width: 100%;
+    background-image: url(../imagem/dev.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.dev-texto {
+    min-height: 60vh;
+    color: #F7F8F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), rgba(10, 45, 85, 0.158);
+}
+
+.dev-texto h1 {
+    font-size: 56px;
+    color: #F7F8F0;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-top: 5vh;
+}
+
+.logo {
+    height: 110px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.topo-menu {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: -200px;
+    
+}
+
+.menu a{
+    position:relative;
+    text-decoration:none;
+    font-size:17px;
+    transition: font-size 0.3s;
+    color: #F7F8F0;
+}
+
+.menu a:hover{
+    text-shadow: 0 0 15px #F7F8F0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu a:hover::after{
+    width:100%;
+}
+
+.menu a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0%;
+    height:2px;
+    background:#F7F8F0;
+    transition:0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #F7F8F0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.opcao {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: #F7F8F0;
+    margin-top: 25vh;
+}
+
+main {
+    background-color: #F7F8F0;
+}
+
+.box {
+    height: 200px;
+    border: 3px solid  #355872 ;
+    border-radius: 15px;
+}
+
+.descricao {
+    font-size: 22px;
+    text-align: justify;
+    color: #000000;
+    margin: 15px;
+    margin-top: 35px;
+    padding: 0 25px;
+}
+
+.descricao span {
+    font-weight: bold;
+}
+
+.section {
+    display: flex;
+    justify-content: center; 
+    gap: 60px;
+    text-align: center;
+}
+
+.icon img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 190px;
+}
+
+.card {
+    margin-bottom: 150px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.card p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #355872;
+}
+
+.card ul {
+    list-style-type: calc(20vh - 20px);
+    list-style: #355872;
+    padding: 0;
+    color: #000000;
+}
+
+.card ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.card ul li::marker {
+    color: #355872;
+    font-size: 1.5rem;
+}
+
+.container-footer {
+    color: #F7F8F0;
+    display: inline-block;
+    margin-left: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer {
+    background-color: #487da3;
+    color: #F7F8F0;
+    padding: 40px 0;
+}
+
+.row {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #F7F8F0;
+}
+
+.row h4 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #F7F8F0;
+    cursor: default;
+}
+
+.col-footer {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 20px;
+    justify-content: space-between;
+    font-weight: lighter;
+}
+
+.col-footer li {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.col-footer i {
+    margin-right: 10px;
+}
+
+.sp {
+    font-weight: bold;
+}
+
+.barra {
+    background: linear-gradient(360deg,#105688, #487da3 );
+    color: #fff;
+    align-items: center;
+    position: relative;
+}
+
+.logo-footer {
+    text-align: center;
+    justify-content: center;
+}
+
+.logo-baixo {
+    height: 150px;
+    margin-bottom: -50px;
+
+}
+
+.paragrafo-footer {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    flex: 1;
+    padding-bottom: 25px;
+}
