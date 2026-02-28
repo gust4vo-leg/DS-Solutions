@@ -23,34 +23,6 @@ body {
     background-color: rgba(0, 0, 0, 0.212);
 }
 
-.dev-img {
-    height: 60vh;
-    min-width: 100%;
-    background-image: url(../imagem/dev.jpg);
-    background-position: center;
-    background-size: cover;
-    
-}
-
-.dev-texto {
-    min-height: 60vh;
-    color: #F7F8F0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), rgba(10, 45, 85, 0.158);
-}
-
-.dev-texto h1 {
-    font-size: 56px;
-    color: #F7F8F0;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-    margin-top: 5vh;
-}
-
 .logo {
     height: 110px;
     transition: 0.3s;
@@ -121,6 +93,34 @@ a {
     align-items: center;
 }
 
+.dev-img {
+    height: 60vh;
+    min-width: 100%;
+    background-image: url(../imagem/consult.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.dev-texto {
+    min-height: 60vh;
+    color: #F7F8F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), rgba(10, 45, 85, 0.158);
+}
+
+.dev-texto h1 {
+    font-size: 56px;
+    color: #F7F8F0;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-top: 5vh;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -144,7 +144,7 @@ main {
     text-align: justify;
     color: #000000;
     margin: 15px;
-    margin-top: 35px;
+    margin-top: 20px;
     padding: 0 25px;
 }
 
@@ -167,7 +167,7 @@ main {
 }
 
 .icon img{
-    width: 200px;
+    width: 300px;
     height: auto;;
 }
 
